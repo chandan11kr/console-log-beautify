@@ -1,0 +1,29 @@
+{
+  "name": "console-log-beautify",
+  "version": "1.0.0",
+  "description": "A library to beautify the console",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandan11kr/console-log-beautify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chandan11kr/console-log-beautify/issue"
+  },
+  "homepage": "https://github.com/chandan11kr/console-log-beautify#readme",
+  "keywords": [
+    "console log",
+    "log beautify"
+  ],
+  "author": "Chandan Kumar Paswan<chandan11kr5511@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "files": ["lib/**/*"]
+}
